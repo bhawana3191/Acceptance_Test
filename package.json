@@ -1,0 +1,17 @@
+{
+  "name": "acceptance-test",
+  "version": "1.0.0",
+  "description": "Acceptance test for NAB Test",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "Bhawana Pokhriya",
+  "license": "ISC",
+  "devDependencies": {
+    "axe-core": "^3.5.1",
+    "cypress": "^4.1.0",
+    "cypress-xpath": "^1.4.0"
+  }
+}
